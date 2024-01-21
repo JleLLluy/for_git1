@@ -1,6 +1,4 @@
-t = 343
-def tt():
-    global t
-    t = 1
-tt()
-print(t)
+import time
+while True:
+    t = time.thread_time()
+    print(t)
